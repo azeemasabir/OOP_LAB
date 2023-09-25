@@ -58,7 +58,7 @@ public class Music {
     @Override
     public String toString() {
         return String.format("Title: %s\nDuration: %s\nGenre: %s\nRelease Date: %s\nSinger: %s",
-                title, duration, genre, releaseDate, singer.getName());
+                title, duration, genre, releaseDate, singer);
     }
 }
 
